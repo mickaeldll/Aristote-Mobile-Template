@@ -38,6 +38,10 @@ GNU General Public License v3.0 [Read more about our license.](http://www.gnu.or
 
 [Pexels](https://www.pexels.com/) by PexelsPhotos. Licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
 
+### Randomuser
+
+[Randomuser](https://randomuser.me/) by Randomapi. Licensed under [CC-BY 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 ## Misc
 
 Follow Mickael Guillaume: [Twitter](https://twitter.com/guillaumemick), [Behance](https://www.behance.net/mickaeldll)

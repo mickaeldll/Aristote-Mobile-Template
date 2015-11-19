@@ -3,9 +3,9 @@
 [Main stylesheet my-app.css]
 
 Author:	        Guillaume Mickael
-Version:	    1.0
+Version:	    1.5
 Created:	    15.09.2015
-Last updated:	15.09.2015
+Last updated:	19.11.2015
 Template:	    Aristote - HTML Mobile and Tablet Template
 
 [Table of Contents]
@@ -48,6 +48,14 @@ Template:	    Aristote - HTML Mobile and Tablet Template
 /* -----------------------------------*/
 body {
   font-family: "Lato", sans-serif;
+}
+
+.statusbar-overlay{
+    background: white;
+}
+
+.fa {
+  font-size: 14px;
 }
 
 .list-block.media-list .item-link .item-title-row {
@@ -139,6 +147,10 @@ span.live {
 
 .content-block {
   color: #777;
+}
+
+.fav {
+  color: #DD614A !important;
 }
 
 /* -----------------------------------*/
@@ -757,8 +769,16 @@ ul.comment:before {
 a.button.button-big.button-round.post {
   width: 85%;
   margin: 50px auto;
-  background-color: #60BB87;
   border: 1px solid #60BB87;
+  font-size: 14px;
+  color: #60BB87;
+}
+
+a.button.button-big.button-round.post.active-state {
+  width: 85%;
+  margin: 50px auto;
+  border: 1px solid #60BB87;
+  background-color: #60BB87;
   font-size: 14px;
   color: white;
 }
@@ -1336,7 +1356,6 @@ img.login3 {
   background: white;
   color: #171717;
   text-transform: uppercase;
-  font-weight: 700;
   font-size: 12px;
 }
 
@@ -1408,12 +1427,11 @@ a.button.button-big.button-round.account.active-state {
 a.button.button-big.button-round.follow.profile {
   width: 100px;
   margin: 5px 0px;
-  border: 1px solid #777;
+  border: 1px solid #60BB87;
   font-size: 14px;
-  color: #171717;
+  color: #60BB87;
   line-height: 32px;
   height: 35px;
-  font-weight: 700;
 }
 
 a.button.button-big.button-round.follow.profile.active-state {
@@ -1425,7 +1443,6 @@ a.button.button-big.button-round.follow.profile.active-state {
   font-size: 14px;
   line-height: 32px;
   height: 35px;
-  font-weight: 700;
 }
 
 .list-block.media-list.profile {
@@ -1516,12 +1533,11 @@ p.profile1 {
 a.button.button-big.button-round.follow.profile1 {
   width: 100px;
   margin: 0 auto;
-  border: 1px solid #777;
+  border: 1px solid #60BB87;
   font-size: 14px;
-  color: #171717;
+  color: #60BB87;
   line-height: 32px;
   height: 35px;
-  font-weight: 700;
 }
 
 a.button.button-big.button-round.follow.profile1.active-state {
@@ -1533,7 +1549,6 @@ a.button.button-big.button-round.follow.profile1.active-state {
   font-size: 14px;
   line-height: 32px;
   height: 35px;
-  font-weight: 700;
 }
 
 .separator.profile1 {
@@ -1574,12 +1589,11 @@ a.button.button-big.button-round.follow.profile1.active-state {
 a.button.button-big.button-round.follow.profile2 {
   width: 100px;
   margin: 0 auto;
-  border: 1px solid #777;
+  border: 1px solid #60BB87;
   font-size: 14px;
-  color: #171717;
+  color: #60BB87;
   line-height: 32px;
   height: 35px;
-  font-weight: 700;
 }
 
 a.button.button-big.button-round.follow.profile2.active-state {
@@ -1591,7 +1605,6 @@ a.button.button-big.button-round.follow.profile2.active-state {
   font-size: 14px;
   line-height: 32px;
   height: 35px;
-  font-weight: 700;
 }
 
 .separator.profile2 {
@@ -1640,12 +1653,11 @@ a.button.button-big.button-round.follow.profile2.active-state {
 a.button.button-big.button-round.follow.profile3 {
   width: 80%;
   margin-left: 15px;
-  border: 1px solid #777;
+  border: 1px solid #60BB87;
   font-size: 14px;
-  color: #171717;
+  color: #60BB87;
   line-height: 32px;
   height: 35px;
-  font-weight: 700;
 }
 
 a.button.button-big.button-round.follow.profile3.active-state {
@@ -1657,7 +1669,6 @@ a.button.button-big.button-round.follow.profile3.active-state {
   color: white;
   line-height: 32px;
   height: 35px;
-  font-weight: 700;
 }
 
 .col-33.profile3 {

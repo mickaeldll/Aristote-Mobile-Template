@@ -52,6 +52,12 @@ $$('.ac-1').on('click', function () {
 });
 });
 
+myApp.onPageInit('profile', function (page) {
+$$('i.fa.fa-heart').on('click', function (e) {//Changing color icons onclick
+  $$(this).toggleClass('fav');
+});
+});
+
 var mySwiper = myApp.swiper('.swiper-container', {
     speed: 600,
     spaceBetween: 100

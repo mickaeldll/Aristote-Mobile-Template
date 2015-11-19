@@ -1,6 +1,6 @@
-# "Aristote" Mobile Template
+# Aristote Mobile Template
 
-"Aristote" is a Mobile Template for creating your next App or WebApp.
+Aristote HTML Mobile Template
 
 [Demo](http://mickaelguillaume.esy.es/Aristote/index.html)
 
